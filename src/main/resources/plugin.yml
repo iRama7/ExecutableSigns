@@ -1,0 +1,9 @@
+name: ExecutableSigns
+version: '1.0'
+main: me.rama.ExecutableSigns
+api-version: '1.21'
+load: POSTWORLD
+authors: [ ImRama ]
+description: Executable signs for Minecraft.
+commands:
+  sign:
