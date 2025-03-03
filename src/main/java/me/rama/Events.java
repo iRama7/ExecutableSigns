@@ -21,6 +21,9 @@ public class Events implements Listener {
     public void interactSignEvent(PlayerInteractEvent event){
         Action action = event.getAction();
         Block block = event.getClickedBlock();
+        if(block == null){
+            return;
+        }
         Material material = block.getType();
         Player player = event.getPlayer();
 
